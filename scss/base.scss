@@ -1,0 +1,13 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+// elements
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    background-color: $very-dark-blue;
+    background-image: url(../images/bg-stars.svg);
+    height: 100vh;
+}

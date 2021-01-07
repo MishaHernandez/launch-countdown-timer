@@ -1,0 +1,21 @@
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &__item{
+
+        &-number{
+            @extend %text-align-center;
+            font-size: 2.5rem;
+            color: $soft-red;
+        }
+        &-time{
+            @extend %text-align-center;
+            @extend %text-uppercase;
+            font-size: 7px;
+            letter-spacing: 3px;
+            color: $white;
+            opacity: .5;
+        }
+    }
+}
