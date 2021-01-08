@@ -5,9 +5,34 @@
 // elements
 
 body {
+    height: 100vh;
+    background-image: url(../images/bg-stars.svg);
+    background-color: $very-dark-blue;
+    
     font-family: 'Red Hat Text', sans-serif;
     font-size: 14px;
-    background-color: $very-dark-blue;
-    background-image: url(../images/bg-stars.svg);
-    height: 100vh;
+}
+
+header {
+    height: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main {
+    height: 39%;
+}
+
+footer {
+    height: 26%;
+    background-image: url(../images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

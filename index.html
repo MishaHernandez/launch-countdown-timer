@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
-  
+  <!-- fontawesome icons -->
   <script src="js/fontawesome.min.js"></script>
   <script src="js/brands.min.js"></script>
   
@@ -22,19 +22,19 @@
   <main>
     <div class="countdown">
       <div class="countdown__item">
-        <p class="countdown__item-number">08</p>
+        <p class="countdown__item-number" id="days-amount">08</p>
         <p class="countdown__item-time">Days</p>
       </div>
       <div class="countdown__item">
-        <p class="countdown__item-number">23</p>
+        <p class="countdown__item-number" id="hours-amount">23</p>
         <p class="countdown__item-time">Hours</p>
       </div>
       <div class="countdown__item">
-        <p class="countdown__item-number">55</p>
+        <p class="countdown__item-number" id="minutes-amount">55</p>
         <p class="countdown__item-time">Minutes</p>
       </div>
       <div class="countdown__item">
-        <p class="countdown__item-number">41</p>
+        <p class="countdown__item-number" id="seconds-amount">41</p>
         <p class="countdown__item-time">Seconds</p>
       </div>
     </div>
@@ -51,5 +51,7 @@
       Coded by <a class="attribution__link" href="#">Your Name Here</a>.
     </div>
   </footer>
+
+  <script src="js/countdown.js"></script>
 </body>
 </html>
