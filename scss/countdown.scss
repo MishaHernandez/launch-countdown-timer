@@ -1,6 +1,7 @@
 .countdown {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
 
     &__item{
 
@@ -8,6 +9,16 @@
             @extend %text-align-center;
             font-size: 2.5rem;
             color: $soft-red;
+            line-height: 65px;
+
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: $dark-desaturated-blue;  
+            width: 70px;
+            height: 65px;
+            border-radius: 4px;
+
+            box-shadow: 0 6px 6px $very-dark-black-blue;
         }
         &-time{
             @extend %text-align-center;
