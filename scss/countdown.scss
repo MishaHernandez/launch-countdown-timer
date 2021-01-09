@@ -1,4 +1,7 @@
 .countdown {
+    width: 90%;
+    margin-bottom: 4.5rem;
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
@@ -20,6 +23,7 @@
 
             box-shadow: 0 6px 6px $very-dark-black-blue;
         }
+
         &-time{
             @extend %text-align-center;
             @extend %text-uppercase;

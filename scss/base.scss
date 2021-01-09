@@ -2,35 +2,33 @@
     box-sizing: border-box;
 }
 
-// elements
-
 body {
     height: 100vh;
-    background-image: url(../images/bg-stars.svg);
-    background-color: $very-dark-blue;
+    background: url(../images/bg-stars.svg) $very-dark-blue;
     
     font-family: 'Red Hat Text', sans-serif;
     font-size: 14px;
 }
 
-header {
-    height: 35%;
+.container-content {
+    height: 84%;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
-}
+    justify-content: center;
+    row-gap: 2.5rem;
 
-main {
-    height: 39%;
+    background-image: url(../images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-position: right 500px;
+    background-size: auto 126px;
 }
 
 footer {
-    height: 26%;
-    background-image: url(../images/pattern-hills.svg);
-    background-repeat: no-repeat;
-    
+    height: 16%;
+    background-color: #2F2439;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
