@@ -22,6 +22,20 @@
             font-size: 2.5rem;
             color: $soft-red;
             line-height: 65px;
+            @include tablet-portrait-up {
+                width: 100px;
+                height: 81px;
+                // font
+                font-size: 3rem;
+                line-height: 81px;
+            }
+            @include tablet-landscape-up {
+                width: 120px;
+                height: 100px;
+                // font
+                font-size: 4rem;
+                line-height: 100px;
+            }
             @include desktop-up {
                 width: 148px;
                 height: 140px;
@@ -41,6 +55,13 @@
             font-size: 7px;
             letter-spacing: 3px;
             color: $white;
+            @include tablet-portrait-up {
+                font-size: 10px;
+                letter-spacing: 4px;
+            }
+            @include tablet-landscape-up {
+                font-size: 12px;
+            }
             @include desktop-up {
                 font-size: 14px;
                 letter-spacing: 6px;
