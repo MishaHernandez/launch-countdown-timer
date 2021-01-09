@@ -2,6 +2,10 @@
     width: 140px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 14px;
+    @include desktop-up {
+        margin-top: 14px;
+    }
 
     &__item {
         font-size: 1.6rem;

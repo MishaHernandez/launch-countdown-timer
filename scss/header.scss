@@ -6,6 +6,8 @@
     letter-spacing: 5px;
     @extend %text-uppercase;
     @extend %text-align-center;
+    @include tablet-landscape-up { width: 100%; }
+    @include desktop-up { font-size: 1.4rem; letter-spacing: 8px; }
     // margins
     @extend %margin-lr;
     margin-top: 0;
