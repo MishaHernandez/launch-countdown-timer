@@ -1,6 +1,4 @@
-*,*::before,*::after {
-    box-sizing: border-box;
-}
+*,*::before,*::after { box-sizing: border-box; }
 
 body {
     height: 100vh;
@@ -36,7 +34,5 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @include desktop-up {
-        justify-content: flex-start;
-    }
+    @include desktop-up { justify-content: flex-start; }
 }
